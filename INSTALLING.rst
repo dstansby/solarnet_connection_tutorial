@@ -1,8 +1,10 @@
-Installing a python environment
+Installing a Python environment
 ===============================
 
-This short guide should get you set up with a local python installation that
-has all the packages you need for the SOLARNET summer school.
+This short guide should get you set up with a local Python installation that
+has all the packages you need for the SOLARNET summer school. If you encounter
+any problems with these instructions, please get in touch with David Stansby
+at d.stansby@ucl.ac.uk
 
 Step 1: Install miniconda
 -------------------------
