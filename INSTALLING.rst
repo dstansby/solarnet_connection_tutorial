@@ -24,15 +24,15 @@ Step 2: install packages
    the directory created in step 1.
 4. Run
 
-  .. code-block:: bash
+.. code-block:: bash
 
-     conda env create -f environment.yml --name solarnet
+   conda env create -f environment.yml --name solarnet
 
-  This will instruct conda to create a new environment, with the packages
-  specified in *environment.yml*. This step can take a while, so be patient.
+This will instruct conda to create a new environment, with the packages
+specified in *environment.yml*. This step can take a while, so be patient.
 
 5. To active the newly created environment, run
 
-   .. code-bock:: bash
+.. code-bock:: bash
 
-      conda activate solarnet
+  conda activate solarnet
