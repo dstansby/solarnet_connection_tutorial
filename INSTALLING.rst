@@ -22,19 +22,27 @@ Step 2: Install packages
    the page to a file.
 3. Open the terminal (Mac/Unix) or the anaconda prompt (Windows), and change to
    the directory created in step 1.
-4. Run::
+
+
+Next, run
+
+.. code-block:: bash
 
   conda env create -f environment.yml --name solarnet
 
 This will instruct conda to create a new environment, with the packages
 specified in *environment.yml*. This step can take a while, so be patient.
 
-5. To active the newly created environment, run::
+To active the newly created environment, run:
+
+.. code-block:: bash
 
   conda activate solarnet
 
 This will activate the environment, giving you access to the installed packages.
-To check that the environment is working, run::
+To check that the environment is working, run:
+
+.. code-block:: bash
 
   jupyter notebook
 
