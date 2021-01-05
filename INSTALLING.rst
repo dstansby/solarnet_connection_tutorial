@@ -35,4 +35,13 @@ specified in *environment.yml*. This step can take a while, so be patient.
 
 .. code-bock:: bash
 
-  conda activate solarnet
+   conda activate solarnet
+
+This will activate the environment, giving you access to the installed packages.
+To check that the environment is working, run
+
+.. code-bock:: bash
+
+   jupyter notebook
+
+This should open a blank jupyter notebook in your browser.
