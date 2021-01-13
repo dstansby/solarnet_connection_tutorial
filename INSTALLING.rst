@@ -34,7 +34,7 @@ Next, run
 
 .. code-block:: bash
 
-  conda create -f environment.yml --name solarnet
+  conda env create -f environment.yml --name solarnet
 
 This will instruct conda to create a new environment, with the packages
 specified in *environment.yml*. **This step can take a long time**,
