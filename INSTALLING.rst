@@ -54,3 +54,14 @@ To check that the environment is working, run:
   jupyter notebook
 
 This should open a blank jupyter notebook in your browser.
+
+Step 3: Make sure you have the right packages
+---------------------------------------------
+Since initially releasing these instructions, we have changed the version of some packages
+required for the tutorials (sorry about this!). To make sure you have the right
+versions installed, please run:
+
+.. code-block:: bash
+
+  pip install git+https://gitlab.com/snowwattle/irispy-lmsal.git@5121196b4b27b59b04031c99179a20bc79a24fdf
+  pip install git+https://github.com/tiagopereira/sunraster.git@a54c1031a9bf9ac31dd0a0aeebe7634b2ace211a

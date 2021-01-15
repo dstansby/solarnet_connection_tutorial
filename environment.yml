@@ -14,7 +14,7 @@ dependencies:
   - sunpy=2.0.6
   - heliopy=0.15.2
   - ndcube=1.4.2
-  - sunraster=0.1.2
   - pip:
     - cdflib==0.3.19
-    - git+https://gitlab.com/LMSAL_HUB/iris_hub/irispy-lmsal.git@3a0f2af37403cb6a25e7cb2780b1377c207817b4
+    - git+https://gitlab.com/snowwattle/irispy-lmsal.git@5121196b4b27b59b04031c99179a20bc79a24fdf
+    - git+https://github.com/tiagopereira/sunraster.git@a54c1031a9bf9ac31dd0a0aeebe7634b2ace211a
